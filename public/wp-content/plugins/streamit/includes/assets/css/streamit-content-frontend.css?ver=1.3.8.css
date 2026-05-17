@@ -1,0 +1,42 @@
+/* PMPro Print Elements Hiding - Only on confirmation page */
+.pmpro-confirmation-page .pmpro_btn-print,
+.pmpro-confirmation-page .pmpro_card_actions,
+.pmpro-confirmation-page .pmpro_btn-plain.pmpro_btn-print {
+    display: none !important;
+}
+
+.pmpro-confirmation-page .pmpro_spacer,
+.pmpro-confirmation-page .pmpro_card_content .pmpro_spacer {
+    display: none !important;
+}
+
+.pmpro-confirmation-page hr {
+    display: none !important;
+}
+
+.pmpro-confirmation-page .pmpro_card_content {
+    padding-top: 20px !important;
+}
+
+/* PMPro Invoice Download Button Styles */
+.pmpro_invoice_download {
+    margin: 15px 0;
+    text-align: right;
+    position: relative;
+}
+
+.pmpro_invoice_download .streamit-download-invoice {
+    bottom: -50px;
+    margin-left: 10px;
+}
+
+/* Additional specificity for PMPro confirmation page */
+.pmpro-confirmation-page .pmpro_invoice_download {
+    margin: 15px 0;
+    text-align: right;
+    position: relative;
+}
+
+.pmpro-confirmation-page .pmpro_invoice_download .streamit-download-invoice {
+    bottom: -50px;
+}
